@@ -10,8 +10,13 @@ under the AGPLv3: https://github.com/PDG-Global/rVPN-core
 ## Install
 
 ```
-brew install pdg-global/rvpn/rvpn
+brew tap pdg-global/rvpn
+brew trust pdg-global/rvpn
+brew install rvpn
 ```
+
+Homebrew asks you to trust third-party taps before it will load their
+formulae; the second command does that once for this tap.
 
 This installs the macOS command line client (`rvpn`). The graphical
 macOS and iOS apps are distributed separately on the App Store and are
