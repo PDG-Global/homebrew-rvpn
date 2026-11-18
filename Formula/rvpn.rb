@@ -1,5 +1,5 @@
 class Rvpn < Formula
-  desc "Stealth VPN command line client with end-to-end encryption"
+  desc "Open-source, command-line VPN client that runs over HTTPS (WebSocket/TLS)"
   homepage "https://rvpn.org"
   url "https://github.com/PDG-Global/rVPN-core/releases/download/v1.3.9/rvpn-macos-universal"
   sha256 "adbe7fb1591e483944d38fa6076c6271ae305012698ef4b208f9518b63ee0855"
