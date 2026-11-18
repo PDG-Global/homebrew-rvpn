@@ -1,10 +1,10 @@
 class Rvpn < Formula
-  desc "Stealth VPN command line client with end-to-end encryption"
+  desc "Open-source, command-line VPN client that runs over HTTPS (WebSocket/TLS)"
   homepage "https://rvpn.org"
-  url "https://github.com/PDG-Global/rVPN-core/releases/download/v1.3.6/rvpn-macos-universal"
-  sha256 "b5d333ba3470942ecad3f88e47f3f6c01cac425fb95a9e391870270db0aba376"
+  url "https://github.com/PDG-Global/rVPN-core/releases/download/v1.3.9/rvpn-macos-universal"
+  sha256 "adbe7fb1591e483944d38fa6076c6271ae305012698ef4b208f9518b63ee0855"
   license "AGPL-3.0-or-later"
-  version "1.3.6"
+  version "1.3.9"
 
   def install
     bin.install "rvpn-macos-universal" => "rvpn"
